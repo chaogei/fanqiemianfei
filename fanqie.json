@@ -9789,8 +9789,8 @@
         "enabledExplore": true,
         "enabledReview": false,
         "exploreUrl": "[{\"title\":\"轻小说列表\",\"url\":\"/modules/article/articlelist.php?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"热门轻小说\",\"url\":\"/modules/article/toplist.php?sort=allvisit&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"动画作品\",\"url\":\"/modules/article/toplist.php?sort=anime&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"今日更新\",\"url\":\"/modules/article/toplist.php?sort=lastupdate&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"新书一览\",\"url\":\"/modules/article/toplist.php?sort=postdate&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"完结\",\"url\":\"/modules/article/articlelist.php?fullflag=1&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"恐怖\",\"url\":\"/flei/kongbu/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"其他\",\"url\":\"/flei/qita/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"历史\",\"url\":\"/history.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}\n]",
-        "lastUpdateTime": 1669994604695,
-        "loginUrl": "https://www.wenku8.net/login.php?jumpurl=http%3A%2F%2Fwww.wenku8.net%2Findex.php",
+        "lastUpdateTime": 1669995272061,
+        "loginUrl": "https://www.wenku8.net/index.php",
         "respondTime": 180000,
         "ruleBookInfo": {
             "author": "tbody@tr[2]@td[1]@ownText##回复.*",
@@ -9818,6 +9818,7 @@
             "name": "div[2]@b@a@text",
             "wordCount": "div[2]@p[1]@text##更新.*?/|/.*"
         },
+        "ruleReview": {},
         "ruleSearch": {
             "author": "div[2]@p[0]@text##/分类.*",
             "bookList": ".grid@tbody@tr@td@div",

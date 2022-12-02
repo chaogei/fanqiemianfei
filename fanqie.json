@@ -9686,6 +9686,7 @@
     },
     {
         "bookSourceComment": "",
+        "bookSourceGroup": "黄小说",
         "bookSourceName": "亚洲小黄书",
         "bookSourceType": 0,
         "bookSourceUrl": "https://yazhouse8.com",
@@ -9694,7 +9695,7 @@
         "enabledCookieJar": true,
         "enabledExplore": true,
         "enabledReview": true,
-        "lastUpdateTime": 1669931247298,
+        "lastUpdateTime": 1669968140755,
         "respondTime": 180000,
         "ruleBookInfo": {
             "kind": "",
@@ -9733,16 +9734,16 @@
         "enabledReview": true,
         "exploreUrl": "[{\"title\":\"玄幻\",\"url\":\"/flei/xuanhuan/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"仙侠\",\"url\":\"/flei/xianxia/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"都市\",\"url\":\"/flei/dushi/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"历史\",\"url\":\"/flei/lishi/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"游戏\",\"url\":\"/flei/youxi/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"科幻\",\"url\":\"flei/kehuan/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"恐怖\",\"url\":\"/flei/kongbu/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"其他\",\"url\":\"/flei/qita/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"历史\",\"url\":\"/history.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}\n]",
         "header": "",
-        "lastUpdateTime": 1669964392538,
+        "lastUpdateTime": 1669982781390,
         "respondTime": 180000,
         "ruleBookInfo": {
             "author": ".diswap.info-main-wap.border3-1@p[1]@text",
             "coverUrl": "img@data-original",
             "intro": ".info-main-intro@p@text",
+            "kind": ".info-title@a[1]@text",
             "lastChapter": ".diswap.info-main-wap.border3-1@p[3]@text",
             "name": "h1@text",
-            "tocUrl": "bookUrl",
-            "kind": ".info-title@a[1]@text"
+            "tocUrl": ""
         },
         "ruleContent": {
             "content": "#article@p@html",
@@ -9755,8 +9756,8 @@
             "coverUrl": "",
             "intro": "",
             "kind": "em[0]@textNodes",
-            "name": "em[1]@text",
-            "lastChapter": "em[2]@text"
+            "lastChapter": "em[2]@text",
+            "name": "em[1]@text"
         },
         "ruleReview": {},
         "ruleSearch": {
@@ -9774,6 +9775,66 @@
             "chapterUrl": "a@href"
         },
         "searchUrl": "/search/,{\n\t\"method\": \"POST\",\n\t\"body\": \"searchkey={{key}}\",\n\t\"autocomplete\":\"off\",\n        \"headers\": {\"User-Agent\":\"Mozilla/5.0 (Linux; Android 11; V1824A Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36\"},\n        \"webView\": true\n\t}",
+        "weight": 0
+    },
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "轻小说",
+        "bookSourceName": "轻小说文库",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.wenku8.net/index.php",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"轻小说列表\",\"url\":\"/modules/article/articlelist.php?page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"热门轻小说\",\"url\":\"/modules/article/toplist.php?sort=allvisit&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"动画作品\",\"url\":\"/modules/article/toplist.php?sort=anime&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"今日更新\",\"url\":\"/modules/article/toplist.php?sort=lastupdate&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"新书一览\",\"url\":\"/modules/article/toplist.php?sort=postdate&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"完结\",\"url\":\"/modules/article/articlelist.php?fullflag=1&page={{page}}\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"恐怖\",\"url\":\"/flei/kongbu/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"其他\",\"url\":\"/flei/qita/{{page}}/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"历史\",\"url\":\"/history.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}\n]",
+        "lastUpdateTime": 1669994604695,
+        "loginUrl": "https://www.wenku8.net/login.php?jumpurl=http%3A%2F%2Fwww.wenku8.net%2Findex.php",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "tbody@tr[2]@td[1]@ownText##回复.*",
+            "coverUrl": "img[1]@src",
+            "intro": "span[7]@text",
+            "kind": ".hottext[0]@b[0]@text##作品Tags：",
+            "lastChapter": "span[5]@text",
+            "name": "td[1]@span@b@text",
+            "tocUrl": "fieldset@div@a@href",
+            "wordCount": "tbody@tr[2]@td[4]@text##全文长度："
+        },
+        "ruleContent": {
+            "content": "#content@html##(本文.*)|(最新最全的.*)",
+            "imageStyle": "FULL",
+            "nextContentUrl": "a[4]@href",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "div[2]@p[0]@text##/分类.*",
+            "bookList": ".grid@tbody@tr@td@div",
+            "bookUrl": "a@href",
+            "coverUrl": "img@src",
+            "intro": "div[2]@p[3]@text",
+            "kind": "div[2]@p[2]@text##Tags:",
+            "name": "div[2]@b@a@text",
+            "wordCount": "div[2]@p[1]@text##更新.*?/|/.*"
+        },
+        "ruleSearch": {
+            "author": "div[2]@p[0]@text##/分类.*",
+            "bookList": ".grid@tbody@tr@td@div",
+            "bookUrl": "a@href",
+            "checkKeyWord": "我",
+            "coverUrl": "img@src",
+            "intro": "div[2]@p[3]@text",
+            "kind": "div[2]@p[2]@text##Tags:",
+            "name": "div[2]@b@a@text",
+            "wordCount": "div[2]@p[1]@text##更新.*?/|/.*"
+        },
+        "ruleToc": {
+            "chapterList": ".ccss",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://www.wenku8.net/modules/article/search.php?searchtype=articlename&searchkey={{key}},{\n\"charset\":\"gbk\"\n}",
         "weight": 0
     },
     {

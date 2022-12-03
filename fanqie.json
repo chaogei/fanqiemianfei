@@ -10215,6 +10215,62 @@
     },
     {
         "bookSourceComment": "",
+        "bookSourceName": "什么看书屋",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.smkan.top/",
+        "customOrder": 0,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "[{\"title\":\"全部\",\"url\":\"https://www.sadhub.org/category/0/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"原创小说\",\"url\":\"https://www.sadhub.org/category/32705821835333/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"同人衍生\",\"url\":\"https://www.sadhub.org/category/32705821896774/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"古代言情\",\"url\":\"https://www.sadhub.org/category/120486387859525/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"现代言情\",\"url\":\"https://www.sadhub.org/category/120486387867720/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"幻想情感\",\"url\":\"https://www.sadhub.org/category/120486387892298/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"完本\",\"url\":\"https://www.sadhub.org/category/finish/0/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"排行\",\"url\":\" https://www.sadhub.org/rank/0/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},\n{\"title\":\"总榜\",\"url\":\"https://www.sadhub.org/rank/all/0/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}\n]",
+        "header": "{\"user-agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36\"\n}",
+        "lastUpdateTime": 1670076060732,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": ".author@text",
+            "coverUrl": ".BGsectionOne-top-left@img@src",
+            "init": "",
+            "intro": ".BGsectionTwo-bottom@html",
+            "kind": ".category@text",
+            "lastChapter": ".newestChapter@span[0]@text",
+            "name": ".title@text",
+            "tocUrl": "#list@a[-1]@href"
+        },
+        "ruleContent": {
+            "content": ".RBGsectionThree-content@html",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "p[1]@text",
+            "bookList": ".CGsectionTwo-right-content@.CGsectionTwo-right-content-unit",
+            "bookUrl": "p[0]@a[0]@href",
+            "intro": "p[2]@text",
+            "kind": "",
+            "lastChapter": "p[3]@text",
+            "name": "p[0]@a[0]@text"
+        },
+        "ruleSearch": {
+            "author": "span[2]@text",
+            "bookList": ".SHsectionThree-middle@p",
+            "bookUrl": "span[1]@a@href",
+            "checkKeyWord": "我",
+            "kind": "span[0]@text",
+            "lastChapter": "span[1]@text",
+            "name": "span[1]@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": ".BCsectionTwo-top-chapter",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href##$##,{'webView': true}",
+            "nextTocUrl": ".CGsectionTwo-right-bottom-btn@#next@href"
+        },
+        "searchUrl": "https://www.sadhub.org/search/{{key}}",
+        "weight": 0
+    },
+    {
+        "bookSourceComment": "",
         "bookSourceName": "韩漫",
         "bookSourceType": 2,
         "bookSourceUrl": "https://jmwu.xyz/",
